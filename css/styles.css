@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.morado{
+    background-color: #ffe5d9;
+    color: #c1974a;
+}
+
+.logo {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 2%;
+}
+
+.navegacion{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f083b4;
+    padding: 1%;
+}
+
+.navegacion li a{
+    text-decoration: none;
+}
+
+.inicio h4{
+    text-align: center;
+}
+
+.verde{
+    padding-left: 10%;
+    
+}
+
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffe5d9;
+}
+
+.navpie a{
+    text-decoration: none;
+    color: black;
+}
+
+.navpie{
+    padding: 2%;
+}
+
+.derechos{
+    text-align: center;
+    padding-top: 25%;
+}
+.pieizquierda{
+    padding: 2%;
+}
+.pieizquierda img{
+    width: 85px;
+    height: 45px;
+}
+
+.pieizquierda i{
+    width: 25px;
+    height: 25px;
+    background-color: #c1974a;
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.piederecha{
+    padding: 2%;
+}
+
+.inicio{
+    background-color: #ffc4d6;
+    padding: 2%;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffc4d6;
+}
+
+.servicios img{
+    width: 250px;
+    height: 200px;
+    padding: 10%;
+}
+
+.servicios h5{
+    text-align: center;
+}
+
+.areas{
+    background-color: #ffc4d6;
+}
+.areas h3{
+    text-align: center;
+    padding: 2%;
+}
+
+.areas img{
+    height: 500px;
+    width: 200px;
+
+}
+
+.tiendas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffc4d6;
+}
+
+.tiendas img{
+    width: 550px;
+    height: 280px;
+    padding: 5%;
+}
+
+.tiendas h3{
+    text-align: center;
+    padding: 5%;
+}
+
+.tiendas p{
+    padding: 5%;
+    justify-content: center;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffc4d6;
+}
+.blog img{
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+}
+
+.blog p{
+    padding: 15%;
+}
+
+.formulario{
+background-color: #ffc4d6;
+padding: 2%;
+text-align: center;
+}
+
+.formulario div{
+    padding: 5px;
+}
+
+.formulario button{
+    border-radius: 20%;
+    color: black;
+    background-color: #c1974a;
+}
